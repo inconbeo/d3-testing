@@ -8,8 +8,3 @@ it('renders without crashing', () => {
   ReactDOM.render(<Hello />, div);
   ReactDOM.unmountComponentAtNode(div);
 })
-
-
-// it('displays hello world', () => {
-
-// });
