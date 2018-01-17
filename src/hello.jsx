@@ -11,19 +11,12 @@ export default class Hello extends React.Component {
 
     sayHello() {
         select("#hi")
-        .append()
-        .text(function() {
-            return 'hello world'
-        })
-
+        .text('HELLO WORLD')
     }
 
     render(){
         return (
-
-            <div id="hi">
-                {this.sayHello()}
-            </div>
+            <div id="hi"></div>
         )
     }
 }
