@@ -1,9 +1,8 @@
 
 const d3 = require('d3');
-let s = d3.select('body').append('p').text('hello w!!!');
-console.log(s);
+let s = d3.select('body').append('p').text('hello world');
 
-  test('it exists', () => {
+   test('it exists', () => {
     expect(s).not.toBeNull();
   })
 
@@ -13,9 +12,9 @@ console.log(s);
   })
 
     test('hello world', () => {
-      console.log(s);
-    expect(`${s}`).toBe('hellow world')
+      console.log(d3.select('p').text());
+      expect(d3.select('p').text()).toBe('hello world')
   })
   
-
   
+
