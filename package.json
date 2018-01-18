@@ -1,0 +1,23 @@
+{
+  "name": "git-projects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "d3": "^4.12.2",
+    "d3-timeseries": "^1.0.1",
+    "express": "^4.16.2",
+    "fs": "0.0.1-security",
+    "package-json": "^4.0.1",
+    "watson-developer-cloud": "^2.41.1"
+  },
+  "devDependencies": {
+    "jasmine": "^2.8.0",
+    "jest": "^22.1.1"
+  }
+}
